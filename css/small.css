@@ -39,5 +39,6 @@ header, nav, main, footer {
 footer {
   background-color: #CDE0E0;
   align-items: center;
+  grid-template-columns: 100px 1fr;
 }
 
