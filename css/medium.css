@@ -1,5 +1,8 @@
 @media only screen and (min-width: 32.5em) {
     
+    header {
+        grid-template-columns: 200px 1fr;
+    }
     header img{
         box-shadow: 0 0 20px black;
         float: right;
