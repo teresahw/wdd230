@@ -1,1 +1,1 @@
-alert(document.lastModified);
+document.querySelector('#lastModified').textContent = document.lastModified;
