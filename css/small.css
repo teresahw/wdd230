@@ -4,7 +4,7 @@
 
 header {
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 200px 1fr;
     background-color: #CDE0E0;
     align-items: center;
   }

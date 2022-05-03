@@ -1,0 +1,34 @@
+h1 h2 h3 h4 p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #049FB2;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0.15rem;
+    text-align: center;
+}
+
+h2 {
+    background-color: #430081;
+    color: white;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background-color: #f0fafc;
+}
+
+header {
+    background-color: #049FB2;
+    align-items: center;
+}
+
+
