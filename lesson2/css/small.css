@@ -18,14 +18,12 @@ h2 {
 }
 
 h3 {
-    background-color: #430081;
+    background-color: #21003f;
     color: white;
     text-align: center;
 }
 
 main {
-    display: grid;
-    grid-template-columns: 400px 1fr;
     background-color: #f0fafc;
 }
 
