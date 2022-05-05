@@ -29,6 +29,7 @@ h3 {
     color: white;
     text-align: center;
     padding: 1em;
+    border-radius: 25px;
 }
 
 h4 {
@@ -37,6 +38,7 @@ h4 {
 
 main {
     background-color: white;
+    border-radius: 25px;
 }
 
 footer {
@@ -63,16 +65,13 @@ header, main, footer {
   }
 
 .contrast {
-    border-radius: 25px;
     padding: 1em;
 }
 
 .white-space {
-    border-radius: 25px;
     padding: 1em;
 }
 
 .repetition {
-    border-radius: 25px;
     padding: 1em;
 }

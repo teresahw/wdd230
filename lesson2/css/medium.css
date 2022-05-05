@@ -1,7 +1,8 @@
 @media only screen and (min-width: 32.5em) {
     
     body {
-        max-width: 600px;
+        max-width: 690px;
+        margin: auto;
     }
    
     h1 {
