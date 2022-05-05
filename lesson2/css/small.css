@@ -3,12 +3,13 @@ h1 h2 h3 h4 p {
 }
 
 body {
-    max-width: 960px;
     background-color: #f0fafc;
 }
 
 header {
     background-color: #049FB2;
+    border-radius: 25px;
+    text-align: center;
 }
 
 h1 {
@@ -27,6 +28,11 @@ h3 {
     background-color: #21003f;
     color: white;
     text-align: center;
+    padding: 1em;
+}
+
+h4 {
+    padding: 1em;
 }
 
 main {
@@ -36,6 +42,7 @@ main {
 footer {
     background-color: #CDE0E0;
     grid-template-columns: 100px 1fr;
+    border-radius: 25px;
   }
   
   #lastModified {
@@ -50,9 +57,22 @@ footer {
     text-align: center;
   }
 
-  header, main, footer {
+header, main, footer {
     margin: 0 auto;
     padding: 0.75rem;
   }
 
+.contrast {
+    border-radius: 25px;
+    padding: 1em;
+}
 
+.white-space {
+    border-radius: 25px;
+    padding: 1em;
+}
+
+.repetition {
+    border-radius: 25px;
+    padding: 1em;
+}
