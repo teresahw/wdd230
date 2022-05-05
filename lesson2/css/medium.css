@@ -1,7 +1,7 @@
 @media only screen and (min-width: 32.5em) {
     
     header {
-        max-width: 800px;
+        max-width: 600px;
     }
    
     h1 {
@@ -14,7 +14,7 @@
 
     main {
         display: grid;
-        grid-template-columns: 400px 1fr 1fr;
+        grid-template-columns: 200px 1fr 1fr;
         align-items: center;
     }
 

@@ -44,7 +44,17 @@ header, nav, main, footer {
 
 footer {
   background-color: #CDE0E0;
-  align-items: center;
   grid-template-columns: 100px 1fr;
 }
 
+#lastModified {
+  text-align: center;
+}
+
+.footer-paragraph1 {
+  text-align: center;
+}
+
+.footer-paragraph2 {
+  text-align: center;
+}

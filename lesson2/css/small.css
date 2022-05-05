@@ -2,17 +2,23 @@ h1 h2 h3 h4 p {
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    max-width: 960px;
+    background-color: #f0fafc;
+}
+
 header {
     background-color: #049FB2;
-    align-items: center;
 }
 
 h1 {
     font-size: 1.5rem;
     margin: 0.15rem;
+    text-align: center;
 }
 
 h2 {
+    text-align: center;
     font-size: 1rem;
     margin: 0.5rem;
 }
@@ -24,12 +30,29 @@ h3 {
 }
 
 main {
-    background-color: #f0fafc;
+    background-color: white;
 }
 
-header {
-    background-color: #049FB2;
-    align-items: center;
-}
+footer {
+    background-color: #CDE0E0;
+    grid-template-columns: 100px 1fr;
+  }
+  
+  #lastModified {
+    text-align: center;
+  }
+  
+  .footer-paragraph1 {
+    text-align: center;
+  }
+  
+  .footer-paragraph2 {
+    text-align: center;
+  }
+
+  header, main, footer {
+    margin: 0 auto;
+    padding: 0.75rem;
+  }
 
 
