@@ -65,6 +65,23 @@ main {
     border-radius: 25px;
 }
 
+.shark {
+  background-color: #2A2F33;
+  color: white;
+}
+
+.nomad {
+  background-color: #BBB6A5;
+}
+
+.mantle {
+  background-color: #8C9491
+}
+
+.manatee {
+  background-color: #8C8C9C;
+}
+
 footer {
     background-color: #BBB6A5;
     grid-template-columns: 1fr 1fr;
