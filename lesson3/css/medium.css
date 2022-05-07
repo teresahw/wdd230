@@ -20,4 +20,8 @@
     nav ul li {
         flex: 1 1 100%;
       }
+    
+    nav li a {
+        font-size: 1.2rem;
+    }
 }
