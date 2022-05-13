@@ -16,6 +16,10 @@ header {
     text-align: center;
 }
 
+.bee-icon {
+    width: 100%;
+}
+
 nav {
   background-color: #8C9491;
   text-align: center;
@@ -66,47 +70,11 @@ main {
     border-radius: 25px;
 }
 
-.shark {
-  background-color: #2A2F33;
-  color: white;
-}
-
-.nomad {
-  background-color: #BBB6A5;
-}
-
-.mantle {
-  background-color: #8C9491
-}
-
-.manatee {
-  background-color: #8C8C9C;
-}
-
-.david-persona {
-  width: 100%;
-}
-
-.cecilia-persona {
-  width: 100%;
-}
-
 footer {
+    display: grid;
     background-color: #BBB6A5;
     grid-template-columns: 1fr 1fr;
     border-radius: 25px;
-  }
-  
-  #lastModified {
-    text-align: center;
-  }
-  
-  .footer-paragraph1 {
-    text-align: center;
-  }
-  
-  .footer-paragraph2 {
-    text-align: center;
   }
 
 header, main, footer {
