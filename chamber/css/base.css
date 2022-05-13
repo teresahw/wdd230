@@ -24,7 +24,7 @@ body {
 
 
 nav {
-  background-color: #8C9491;
+  background-color: #2A2F33;
   text-align: center;
 }
 
@@ -46,8 +46,8 @@ nav li a {
 }
 
 nav a:hover {
-  background-color: #2A2F33;
-  color: #BBB6A5;
+  background-color: #BBB6A5;
+  color: #2A2F33;
 }
 
 h1 {
@@ -69,15 +69,26 @@ h3 {
 
 main {
     background-color: white;
-    border-radius: 25px;
 }
 
 footer {
-    display: grid;
-    background-color: #BBB6A5;
-    grid-template-columns: 1fr 1fr;
-    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2A2F33;
   }
+
+  .footer-paragraph1 {
+      color: #BBB6A5;
+  }
+
+  .footer-paragraph2 {
+    color: #BBB6A5;
+}
+
+#lastModified {
+    color: #BBB6A5;
+}
 
 header, main, footer {
     margin: 0 auto;
