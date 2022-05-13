@@ -15,6 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 5px solid #2A2F33;
 }
 
 .bee-icon {
