@@ -1,5 +1,9 @@
 @media only screen and (min-width: 37.5em) {
     
+    .bee-icon {
+        width: 100px;
+    }
+    
     body {
         max-width: 690px;
         margin: auto;

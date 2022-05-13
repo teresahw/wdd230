@@ -13,11 +13,21 @@ body {
 header {
     background-color: #2A2F33;
     border-radius: 25px;
-    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.headings {
+    display: flex;
+    align-items: center;
 }
 
 .bee-icon {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: auto;
 }
 
 nav {
