@@ -110,20 +110,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #2A2F33;
+    background-color: white;
+    border: 5px solid #2A2F33;
   }
-
-  .footer-paragraph1 {
-      color: #BBB6A5;
-  }
-
-  .footer-paragraph2 {
-    color: #BBB6A5;
-}
-
-#lastModified {
-    color: #BBB6A5;
-}
 
 header, main, footer {
     margin: 0 auto;
