@@ -30,13 +30,18 @@ nav {
 }
 
 nav ul {
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  display: none;
 }
 
-nav li a {
+nav ul.open {
+    display: block;
+  }
+
+nav ul li a {
   font-family: 'Roboto Condensed', sans-serif;
   display: block;
   text-align: center;
@@ -46,7 +51,21 @@ nav li a {
   color: #BBB6A5;
 }
 
-nav a:hover {
+nav button {
+    margin: .2re 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #BBB6A5;
+  }
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+nav ul li a:hover {
   background-color: #BBB6A5;
   color: #2A2F33;
 }

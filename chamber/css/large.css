@@ -17,8 +17,19 @@
         font-size: 2.5rem;
     }
 
-    nav li a {
+    nav button {
+        display: none;
+    }
+
+    nav ul#primaryNav{
+        display: flex;
+        margin-left: 2vw;
+        justify-content: center;
+      }
+
+    nav ul li a {
 		font-size: 1.5rem;
+        padding: .5rem 1rem;
 	}
 
 }
