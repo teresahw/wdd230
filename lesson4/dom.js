@@ -5,6 +5,7 @@ const button = document.querySelector('button');
 button.addEventListener('click', () => {
   const myItem = input.value;
   input.value = '';
+  
 
   const listItem = document.createElement('li');
   const listText = document.createElement('span');
@@ -16,10 +17,9 @@ button.addEventListener('click', () => {
   listBtn.textContent = 'X';
   list.appendChild(listItem);
 
-  function checkforblank() {
-      if (document.getElementById('favchap').value == "") {
-          return false;
-      }
+
+  if (document.getElementById('favchap').value == "") {
+    return false;
   }
 
   listBtn.addEventListener('click', () => {
