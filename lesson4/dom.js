@@ -22,9 +22,10 @@ button.addEventListener('click', () => {
     return false;
   }
 
-  listBtn.addEventListener('click', () => {
-    list.removeChild(listItem);
+  listBtn.addEventListener('click', function() {
+    list.removeChild(newItem);
   });
 
-  input.focus();
 });
+
+input.focus();
