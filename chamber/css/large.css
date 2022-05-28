@@ -73,4 +73,8 @@
         grid-column: 1/4;
     }
 
+    .spotlight-img {
+        grid-column: 1/4;
+    }
+
 }
