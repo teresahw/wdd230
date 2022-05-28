@@ -88,6 +88,7 @@ h1 {
     text-align: center;
     border: 5px solid #2A2F33;
     background-color: white;
+    display: none;
 }
 
 h2 {
