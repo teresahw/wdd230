@@ -48,7 +48,7 @@ nav ul li a {
   text-decoration: none;
   padding: .70rem;
   font-size: 1.0rem;
-  color: #BBB6A5;
+  color: #ece9df;
 }
 
 nav button {
@@ -56,7 +56,7 @@ nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #BBB6A5;
+    color: #ece9df;
   }
 
 #hamburgerBtn span:nth-child(1) {display: block;}
@@ -66,7 +66,7 @@ nav button {
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
 nav ul li a:hover {
-  background-color: #BBB6A5;
+  background-color: #ece9df;
   color: #2A2F33;
 }
 
@@ -99,7 +99,7 @@ main {
 
 .description {
     border: 1px solid #333333;
-    background-color: #BBB6A5;
+    background-color: #ece9df;
     padding: 0.75rem;
     margin: 0.5rem;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
@@ -117,7 +117,7 @@ main {
 
 .discover {
     border: 1px solid #333333;
-    background-color: #BBB6A5;
+    background-color: #ece9df;
     padding: 0.75rem;
     margin: 0.5rem;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
@@ -134,7 +134,7 @@ main {
 
 .events {
     border: 1px solid #333333;
-    background-color: #BBB6A5;
+    background-color: #ece9df;
     padding: 0.75rem;
     margin: 0.5rem;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
@@ -151,7 +151,7 @@ main {
 
 .support-donate {
     border: 1px solid #333333;
-    background-color: #BBB6A5;
+    background-color: #ece9df;
     padding: 0.75rem;
     margin: 0.5rem;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
@@ -168,7 +168,7 @@ main {
 
 .spotlight {
     border: 1px solid #333333;
-    background-color: #BBB6A5;
+    background-color: #ece9df;
     padding: 0.75rem;
     margin: 0.5rem;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
