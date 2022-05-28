@@ -38,11 +38,39 @@
     }
 
     .description {
-        grid-template-columns: 1/4;
+        grid-column: 1/4;
+    }
+
+    .description-img {
+        grid-column: 1/4;
+    }
+
+    .discover {
+        grid-column: 1/2;
+    }
+
+    .discover-img {
+        grid-column: 1/2;
+    }
+
+    .events {
+        grid-column: 2/3;
+    }
+
+    .events-img {
+        grid-column: 2/3;
+    }
+
+    .support-donate {
+        grid-column: 3/4;
+    }
+
+    .support-donate-img {
+        grid-column: 3/4;
     }
 
     .spotlight {
-        grid-template-columns: 1/4;
+        grid-column: 1/4;
     }
 
 }
