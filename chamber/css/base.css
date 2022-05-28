@@ -7,7 +7,7 @@ p {
 }
 
 body {
-    background-color: #8C8C9C;
+    background-color: #ccccdf;
 }
 
 .heading {
@@ -103,11 +103,16 @@ main {
     padding: 0.75rem;
     margin: 0.5rem;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    text-align: center;
 }
 
 .description-img {
     max-width: 100%;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    border: 1px solid #333333;
+    padding: 0.75rem;
+    margin: 0.5rem;
+    align-items: center;
 }
 
 .discover {
@@ -116,11 +121,15 @@ main {
     padding: 0.75rem;
     margin: 0.5rem;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    text-align: center;
 }
 
 .discover-img {
     max-width: 100%;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    border: 1px solid #333333;
+    padding: 0.75rem;
+    margin: 0.5rem;
 }
 
 .events {
@@ -129,11 +138,15 @@ main {
     padding: 0.75rem;
     margin: 0.5rem;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    text-align: center;
 }
 
 .events-img {
     max-width: 100%;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    border: 1px solid #333333;
+    padding: 0.75rem;
+    margin: 0.5rem;
 }
 
 .support-donate {
@@ -142,11 +155,15 @@ main {
     padding: 0.75rem;
     margin: 0.5rem;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    text-align: center;
 }
 
 .support-donate-img {
     max-width: 100%;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    border: 1px solid #333333;
+    padding: 0.75rem;
+    margin: 0.5rem;
 }
 
 .spotlight {
@@ -155,11 +172,15 @@ main {
     padding: 0.75rem;
     margin: 0.5rem;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    text-align: center;
 }
 
 .spotlight-img {
     max-width: 100%;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    border: 1px solid #333333;
+    padding: 0.75rem;
+    margin: 0.5rem;
 }
 
 footer {
