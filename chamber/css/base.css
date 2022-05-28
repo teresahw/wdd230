@@ -79,6 +79,7 @@ h1 {
 #banner {
     text-align: center;
     border: 5px solid #2A2F33;
+    display: none;
 }
 
 h2 {
