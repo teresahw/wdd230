@@ -105,12 +105,20 @@ main {
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
 
+.description-img {
+    max-width: 100%;
+}
+
 .discover {
     border: 1px solid #333333;
     background-color: #BBB6A5;
     padding: 0.75rem;
     margin: 0.5rem;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
+}
+
+.discover-img {
+    max-width: 100%;
 }
 
 .events {
@@ -121,12 +129,20 @@ main {
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
 }
 
+.events-img {
+    max-width: 100%;
+}
+
 .support-donate {
     border: 1px solid #333333;
     background-color: #BBB6A5;
     padding: 0.75rem;
     margin: 0.5rem;
     box-shadow: 3px 3px 10px rgb(54, 54, 54);
+}
+
+.support-donate-img {
+    max-width: 100%;
 }
 
 .spotlight {
