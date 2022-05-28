@@ -76,6 +76,11 @@ h1 {
     margin: 0.15rem;
 }
 
+#banner {
+    text-align: center;
+    border: 5px solid #2A2F33;
+}
+
 h2 {
     color: #2A2F33;
     font-size: 1rem;
