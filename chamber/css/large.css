@@ -32,4 +32,14 @@
         padding: .5rem 1rem;
 	}
 
+    main {
+        display: grid 1fr 1fr 1fr
+    }
+
+    .description {
+        grid-template-columns: 1/4;
+    }
+
+    
+
 }
