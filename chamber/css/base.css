@@ -111,7 +111,6 @@ main {
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
     border: 1px solid #333333;
     padding: 0.75rem;
-    margin: 0.5rem;
     align-items: center;
 }
 
@@ -129,7 +128,6 @@ main {
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
     border: 1px solid #333333;
     padding: 0.75rem;
-    margin: 0.5rem;
 }
 
 .events {
@@ -146,7 +144,6 @@ main {
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
     border: 1px solid #333333;
     padding: 0.75rem;
-    margin: 0.5rem;
 }
 
 .support-donate {
@@ -163,7 +160,6 @@ main {
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
     border: 1px solid #333333;
     padding: 0.75rem;
-    margin: 0.5rem;
 }
 
 .spotlight {
@@ -180,7 +176,6 @@ main {
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
     border: 1px solid #333333;
     padding: 0.75rem;
-    margin: 0.5rem;
 }
 
 footer {
