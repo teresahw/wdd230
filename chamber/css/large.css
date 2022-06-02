@@ -84,4 +84,7 @@
         grid-column: 1/4;
     }
 
-}
+    .weather-section {
+        grid-column: 1/3;
+    }
+
