@@ -88,3 +88,8 @@
         grid-column: 1/3;
     }
 
+    .news {
+        grid-column: 3/4;
+    }
+
+}
