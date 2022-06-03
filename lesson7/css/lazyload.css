@@ -7,7 +7,7 @@ picture img[data-src] {
     transition: filter 0.5s;
   }
 
-  body {
+  main {
       display: grid;
       grid-template-columns: 1fr;
   }
