@@ -224,3 +224,24 @@ header, main, footer {
     margin: 0 auto;
     padding: 0.75rem;
   }
+
+  /* Discover Page */
+  #ogden-sign-image {
+    width: 100%;
+}
+
+#ogden-temple-image {
+    width: 100%;
+}
+
+#ogden-horse-image {
+    width: 100%;
+}
+
+#ogden-building-image {
+    width: 100%;
+}
+
+#ogden-waterfall-image {
+    width: 100%;
+}
