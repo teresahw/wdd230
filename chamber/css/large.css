@@ -32,7 +32,7 @@
         padding: .5rem 1rem;
 	}
 
-    main {
+    .main-home {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 1rem;
@@ -90,6 +90,53 @@
 
     .news {
         grid-column: 3/4;
+    }
+
+    /* Discover Page */
+    .main-discover {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    #ogden-sign-image {
+        grid-template-columns: 1/2;
+    }
+
+    .ogden-sign-paragraph {
+        grid-template-columns: 2/3;
+    }
+
+    #ogden-temple-image {
+        grid-template-columns: 2/3;
+    }
+
+    .ogden-temple-paragraph {
+        grid-template-columns: 1/2;
+    }
+
+    #ogden-horse-image {
+        grid-template-columns: 1/2;
+    }
+
+    .ogden-horse-paragraph {
+        grid-template-columns: 2/3;
+    }
+
+    #ogden-building-image {
+        grid-template-columns: 2/3;
+    }
+
+    .ogden-building-paragraph {
+        grid-template-columns: 1/2;
+    }
+
+    #ogden-waterfall-image {
+        grid-template-columns: 1/2;
+    }
+
+    .ogden-waterfall-paragraph {
+        grid-template-columns: 2/3;
     }
 
 }
