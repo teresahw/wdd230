@@ -245,3 +245,48 @@ header, main, footer {
 #ogden-waterfall-image {
     width: 100%;
 }
+
+.ogden-sign-paragraph {
+    border: 1px solid #333333;
+    background-color: #d0d5da;
+    padding: 0.75rem;
+    margin: 0.5rem;
+    box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    text-align: center;
+}
+
+.ogden-temple-paragraph {
+    border: 1px solid #333333;
+    background-color: #d0d5da;
+    padding: 0.75rem;
+    margin: 0.5rem;
+    box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    text-align: center;
+}
+
+.ogden-horse-paragraph {
+    border: 1px solid #333333;
+    background-color: #d0d5da;
+    padding: 0.75rem;
+    margin: 0.5rem;
+    box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    text-align: center;
+}
+
+.ogden-building-paragraph {
+    border: 1px solid #333333;
+    background-color: #d0d5da;
+    padding: 0.75rem;
+    margin: 0.5rem;
+    box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    text-align: center;
+}
+
+.ogden-waterfall-paragraph {
+    border: 1px solid #333333;
+    background-color: #d0d5da;
+    padding: 0.75rem;
+    margin: 0.5rem;
+    box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    text-align: center;
+}
