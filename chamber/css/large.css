@@ -145,4 +145,12 @@
         grid-column: 2/3;
     }
 
+    .user-visits {
+        grid-column: 1/2;
+    }
+
+    .last-visit {
+        grid-column: 2/3;
+    }
+
 }
