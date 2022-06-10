@@ -37,4 +37,24 @@
         border: 5px solid #333333;
     }
 
+    #ogden-sign-image {
+        align-items: center;
+    }
+    
+    #ogden-temple-image {
+        align-items: center;
+    }
+    
+    #ogden-horse-image {
+        align-items: center;
+    }
+    
+    #ogden-building-image {
+        align-items: center;
+    }
+    
+    #ogden-waterfall-image {
+        align-items: center;
+    }
+
 }
