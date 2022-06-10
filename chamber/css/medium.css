@@ -38,23 +38,39 @@
     }
 
     #ogden-sign-image {
-        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+
     }
     
     #ogden-temple-image {
-        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
     
     #ogden-horse-image {
-        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
     
     #ogden-building-image {
-        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
     
     #ogden-waterfall-image {
-        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
 }
