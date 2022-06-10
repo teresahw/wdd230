@@ -41,36 +41,30 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
-
     }
     
     #ogden-temple-image {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
     }
     
     #ogden-horse-image {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
     }
     
     #ogden-building-image {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
     }
     
     #ogden-waterfall-image {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
     }
 
 }

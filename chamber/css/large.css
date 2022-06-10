@@ -17,10 +17,6 @@
         font-size: 2.5rem;
     }
 
-    p {
-        font-size: 40px;
-    }
-
     nav button {
         display: none;
     }
@@ -109,6 +105,7 @@
 
     .ogden-sign-paragraph {
         grid-column: 2/3;
+        font-size: 50px;
     }
 
     #ogden-temple-image {
@@ -118,6 +115,7 @@
     .ogden-temple-paragraph {
         grid-column: 1/2;
         grid-row: 2/3;
+        font-size: 50px;
     }
 
     #ogden-horse-image {
@@ -126,6 +124,7 @@
 
     .ogden-horse-paragraph {
         grid-column: 2/3;
+        font-size: 50px;
     }
 
     #ogden-building-image {
@@ -135,6 +134,7 @@
     .ogden-building-paragraph {
         grid-column: 1/2;
         grid-row: 4/5;
+        font-size: 50px;
     }
 
     #ogden-waterfall-image {
@@ -143,6 +143,7 @@
 
     .ogden-waterfall-paragraph {
         grid-column: 2/3;
+        font-size: 50px;
     }
 
     .user-visits {
