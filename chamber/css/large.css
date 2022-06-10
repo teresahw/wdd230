@@ -113,6 +113,7 @@
 
     .ogden-temple-paragraph {
         grid-column: 1/2;
+        grid-row: 2/3;
     }
 
     #ogden-horse-image {
@@ -129,6 +130,7 @@
 
     .ogden-building-paragraph {
         grid-column: 1/2;
+        grid-row: 4/5;
     }
 
     #ogden-waterfall-image {
