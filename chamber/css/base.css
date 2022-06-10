@@ -226,24 +226,55 @@ header, main, footer {
   }
 
   /* Discover Page */
+
   #ogden-sign-image {
-    width: 100%;
+    max-width: 100%;
+    box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    border: 1px solid #333333;
 }
 
 #ogden-temple-image {
-    width: 100%;
+    max-width: 100%;
+    box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    border: 1px solid #333333;
 }
 
 #ogden-horse-image {
-    width: 100%;
+    max-width: 100%;
+    box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    border: 1px solid #333333;
 }
 
 #ogden-building-image {
-    width: 100%;
+    max-width: 100%;
+    box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    border: 1px solid #333333;
 }
 
 #ogden-waterfall-image {
-    width: 100%;
+    max-width: 100%;
+    box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    border: 1px solid #333333;
+}
+
+#ogden-sign-image:hover {
+    border: 5px solid #333333;
+}
+
+#ogden-temple-image:hover {
+    border: 5px solid #333333;
+}
+
+#ogden-horse-image:hover {
+    border: 5px solid #333333;
+}
+
+#ogden-building-image:hover {
+    border: 5px solid #333333;
+}
+
+#ogden-waterfall-image:hover {
+    border: 5px solid #333333;
 }
 
 .ogden-sign-paragraph {
