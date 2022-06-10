@@ -267,26 +267,6 @@ header, main, footer {
     transition: filter 0.5s;
 }
 
-#ogden-sign-image:hover {
-    border: 5px solid #333333;
-}
-
-#ogden-temple-image:hover {
-    border: 5px solid #333333;
-}
-
-#ogden-horse-image:hover {
-    border: 5px solid #333333;
-}
-
-#ogden-building-image:hover {
-    border: 5px solid #333333;
-}
-
-#ogden-waterfall-image:hover {
-    border: 5px solid #333333;
-}
-
 .ogden-sign-paragraph {
     border: 1px solid #333333;
     background-color: #d0d5da;

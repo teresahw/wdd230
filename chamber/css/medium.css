@@ -17,4 +17,24 @@
         font-size: 1rem;
     }
 
+    #ogden-sign-image:hover {
+        border: 5px solid #333333;
+    }
+    
+    #ogden-temple-image:hover {
+        border: 5px solid #333333;
+    }
+    
+    #ogden-horse-image:hover {
+        border: 5px solid #333333;
+    }
+    
+    #ogden-building-image:hover {
+        border: 5px solid #333333;
+    }
+    
+    #ogden-waterfall-image:hover {
+        border: 5px solid #333333;
+    }
+
 }
