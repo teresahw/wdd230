@@ -104,7 +104,7 @@
     }
 
     .ogden-sign-paragraph {
-        ggrid-column: 2/3;
+        grid-column: 2/3;
     }
 
     #ogden-temple-image {
