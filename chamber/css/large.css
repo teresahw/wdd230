@@ -100,45 +100,43 @@
     }
 
     #ogden-sign-image {
-        grid-template-columns: 1/2;
+        grid-column: 1/2;
     }
 
     .ogden-sign-paragraph {
-        grid-template-columns: 2/3;
+        ggrid-column: 2/3;
     }
 
     #ogden-temple-image {
-        grid-template-columns: 2/3;
-        grid-template-rows: 2/3;
+        grid-column: 2/3;
     }
 
     .ogden-temple-paragraph {
-        grid-template-columns: 1/2;
-        grid-template-rows: 2/3;
+        grid-column: 1/2;
     }
 
     #ogden-horse-image {
-        grid-template-columns: 1/2;
+        grid-column: 1/2;
     }
 
     .ogden-horse-paragraph {
-        grid-template-columns: 2/3;
+        grid-column: 2/3;
     }
 
     #ogden-building-image {
-        grid-template-columns: 2/3;
+        grid-column: 2/3;
     }
 
     .ogden-building-paragraph {
-        grid-template-columns: 1/2;
+        grid-column: 1/2;
     }
 
     #ogden-waterfall-image {
-        grid-template-columns: 1/2;
+        grid-column: 1/2;
     }
 
     .ogden-waterfall-paragraph {
-        grid-template-columns: 2/3;
+        grid-column: 2/3;
     }
 
 }

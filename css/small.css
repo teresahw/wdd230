@@ -12,6 +12,7 @@ header {
 header img {
   width: 200px;
   height: auto;
+  box-shadow: 0 0 20px black;
 }
 
 body {

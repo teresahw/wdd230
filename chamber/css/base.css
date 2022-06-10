@@ -35,6 +35,17 @@ body {
     height: auto;
 }
 
+.facebook {
+    border-radius: 10px;
+}
+
+.youtube {
+    border-radius: 10px;
+}
+
+.instagram {
+    border-radius: 10px;
+}
 
 nav {
   background-color: #2A2F33;
