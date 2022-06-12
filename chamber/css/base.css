@@ -37,14 +37,17 @@ body {
 
 .facebook {
     border-radius: 10px;
+    max-width: 100%;
 }
 
 .youtube {
     border-radius: 10px;
+    max-width: 100%;
 }
 
 .instagram {
     border-radius: 10px;
+    max-width: 100%;
 }
 
 nav {
