@@ -1,0 +1,47 @@
+table {
+	margin: 10px auto;
+	border: thin solid;
+	box-shadow: 10px 10px 25px hsl(0,0%,50%);
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	font-size: .85rem;
+}
+
+tr:first-child th {
+	background-color: #437472;
+	color: white;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid;
+  border-color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+th {
+	background-color: #4dc7c2;
+  color: white;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #e1f5f4;
+}
+
+.nov-sales-goal {
+  background-color: #4dc7c2;
+  color: white;
+}
+
+.foot {
+  background-color: #437472;
+  color: white;
+}
