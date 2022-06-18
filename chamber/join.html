@@ -41,7 +41,29 @@
         <script src="js/nav.js"></script>
     </header>
     <main>
+        <h1>Course Proposal Application</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Business Position <input type="text" name="position"></label>
+                <label class="top">Phone* <input type="tel" name="phone" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            </fieldset>
+            <felidset>
+                <legend>Buisness Information</legend>
+                <label class="top">Business Name* <input type="text" name="bname" required></label>
+                <div>Memebership Level</div>
+                <label class="sbs"><input type="radio" name="membershipLevel" value="NP"> NP Membership is for non profit organizations and there is no fee</label>
+                <label class="sbs"><input type="radio" name="membershipLevel" value="bronze"> Bronze Membership - $30 monthly - Good</label>
+                <label class="sbs"><input type="radio" name="membershipLevel" value="silver"> Silver Membership - $40 monthly - Better</label>
+                <label class="sbs"><input type="radio" name="membershipLevel" value="gold"> Gold Membership - $50 montly - Best</label>
+                <label class="top">Business description <input type="textarea" name="bdescription"></label>
+            </felidset>
 
+                <input type="submit" value = "Join Chambers" class="submitBtn">
+        </form>
     </main> 
     <footer>
         <img class= "bee-icon" src="images/bee-icon.jpg" alt="Bee Icon created by Ladislava Vantuchová from Pixabay">
