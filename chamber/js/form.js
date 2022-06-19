@@ -2,7 +2,7 @@ let dayTimeValue = document.getElementById("dayTime")
 dayTimeValue.value = new Date();
 
 function validate(){
-    var exp = /^[A-Za-z\s\-]+$/;
+    var exp = /^[A-Za-z\s\-]/;
     var position = document.myform.position.value;
     var result = exp.test(position);
 
