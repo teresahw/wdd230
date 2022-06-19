@@ -396,3 +396,7 @@ form fieldset {
   form label.top input:required:valid {
     border-right: green solid 3px;
   }
+
+  #bdescription {
+    display:block;
+  }
