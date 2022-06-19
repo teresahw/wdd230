@@ -42,12 +42,13 @@
     </header>
     <main>
         <h1>Join the Chamber</h1>
-        <form method="get" action="thanks.html">
+        <form name="myform" method="get" action="thanks.html" onsubmit="return validate()">
             <fieldset>
                 <legend>Applicant Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Business Position <input type="text" name="position"></label>
+                <label class="top">Business Position <input type="text" name="position" id="position" minlength="7"></label>
+                <p id="error"></p><br/>
                 <label class="top">Phone* <input type="tel" name="phone" required></label>
                 <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
             </fieldset>
