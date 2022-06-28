@@ -2,7 +2,7 @@ const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-
 const cards = document.querySelector('.cards');
 
 async function prophets() {
-    let response = await fetch(URL)
+    let response = await fetch(requestURL)
     if (response.ok) {
         let data = await response.json();
         buildProphetCards(data);
