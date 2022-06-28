@@ -11,7 +11,7 @@ async function prophets() {
     }
 }
 
-function buildProphetCards(data) {
+async function buildProphetCards(data) {
     //letnotUtah = data.prophets.filer(p => p.birthplace !== 'Utah');
     //nonUtah.forEach(prophet => {
     console.log(data);
