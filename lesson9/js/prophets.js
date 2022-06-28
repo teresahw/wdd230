@@ -5,30 +5,34 @@ async function prophets() {
     let response = await fetch(URL)
     if (response.ok) {
         let data = await response.json();
-        buildProphetCards();
+        buildProphetCards(data);
     }else {
         throw Error(response.statusText);
     }
 }
-prophets();
 
-function buildProphetCards(prophetData) {
+function buildProphetCards(data) {
     //letnotUtah = data.prophets.filer(p => p.birthplace !== 'Utah');
     //nonUtah.forEach(prophet => {
-    prophetData.prophets.forEach(prophet => {
+    console.log(data);
+    data.prophets.forEach(prophet => {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
-        let p = document.createElement('p');
-        let img = document.createElement('img');
+        let date = document.createElement('p');
+        let place = document.createElement('p');
+        let portrait = document.createElement('img');
 
         h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
-        p.innerHTML = `Location of Birth: ${prophet.birthplace}`;
+        date.innerHTML = `Date of Birth: ${prophet.birthdate}`;
+        place.innerHTML = `Location of Birth: ${prophet.birthplace}`;
         img.setAttribute('src' , `${prophet.imageurl}`);
 
         card.append(h2);
-        card.appendChild(p);
-        card.append(img);
+        card.append(date);
+        card.append(place);
+        card.append(portrait);
 
         cards.append(card);
-    })
+    });
 }
+prophets();
