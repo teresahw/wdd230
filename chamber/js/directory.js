@@ -23,7 +23,7 @@ async function buildCards(data) {
         let img = document.createElement('img');
 
         business.innerHTML = `${directory.business}`;
-        membership.innerHTML = `Tyoe if Membership: ${directory.member}`;
+        membership.innerHTML = `Type if Membership: ${directory.member}`;
         founder.innerHTML = `Founder(s): ${directory.founder}`;
         address.innerHTML = `Address: ${directory.address}`;
         phone.innerHTML = `Phone Number: ${directory.phone}`;
