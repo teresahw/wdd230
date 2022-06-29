@@ -11,18 +11,18 @@ async function getDirectory(requestURL) {
     }
 }
 
-async function buildCards(data) {
+/*async function buildCards(data) {
     console.log(data);
     data.directory.forEach(index => {
         let card = document.createElement('section');
-        let business = document.createElement('h2');
+        let h2 = document.createElement('h2');
         let membership = document.createElement('h3');
         let founder = document.createElement('h4');
         let address = document.createElement('p');
         let phone = document.createElement('p');
         let img = document.createElement('img');
 
-        business.innerHTML = `${index.business}`;
+        h2.innerHTML = `${index.business}`;
         membership.innerHTML = `Type if Membership: ${index.member}`;
         founder.innerHTML = `Founder(s): ${index.founder}`;
         address.innerHTML = `Address: ${index.address}`;
@@ -38,5 +38,5 @@ async function buildCards(data) {
 
         cards.append(card);
     });
-}
+}*/
 buildCards();

@@ -16,12 +16,12 @@ async function buildProphetCards(data) {
     //nonUtah.forEach(prophet => {
     data.prophets.forEach(prophet => {
         let card = document.createElement('section');
-        let name = document.createElement('h2');
+        let h2 = document.createElement('h2');
         let date = document.createElement('p');
         let place = document.createElement('p');
         let img = document.createElement('img');
 
-        name.innerHTML = `${prophet.name} ${prophet.lastname}`;
+        h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
         date.innerHTML = `Date of Birth: ${prophet.birthdate}`;
         place.innerHTML = `Location of Birth: ${prophet.birthplace}`;
         img.setAttribute('src' , `${prophet.imageurl}`);
