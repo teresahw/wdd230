@@ -22,12 +22,12 @@ async function buildCards(data) {
         let phone = document.createElement('p');
         let img = document.createElement('img');
 
-        business.innerHTML = `${directory.business}`;
-        membership.innerHTML = `Type if Membership: ${directory.member}`;
-        founder.innerHTML = `Founder(s): ${directory.founder}`;
-        address.innerHTML = `Address: ${directory.address}`;
-        phone.innerHTML = `Phone Number: ${directory.phone}`;
-        img.setAttribute('src' , `${directory.img}`);
+        business.innerHTML = `${data.business}`;
+        membership.innerHTML = `Type if Membership: ${data.member}`;
+        founder.innerHTML = `Founder(s): ${data.founder}`;
+        address.innerHTML = `Address: ${data.address}`;
+        phone.innerHTML = `Phone Number: ${data.phone}`;
+        img.setAttribute('src' , `${data.img}`);
 
         card.append(business);
         card.append(membership);
