@@ -13,7 +13,7 @@ async function getDirectory(requestURL) {
 
 async function buildCards(data) {
     console.log(data);
-    data.directory.forEach(directory => {
+    data.directory.forEach(index => {
         let card = document.createElement('section');
         let business = document.createElement('h2');
         let membership = document.createElement('h3');
@@ -22,12 +22,12 @@ async function buildCards(data) {
         let phone = document.createElement('p');
         let img = document.createElement('img');
 
-        business.innerHTML = `${directory.business}`;
-        membership.innerHTML = `Type if Membership: ${directory.member}`;
-        founder.innerHTML = `Founder(s): ${directory.founder}`;
-        address.innerHTML = `Address: ${directory.address}`;
-        phone.innerHTML = `Phone Number: ${directory.phone}`;
-        img.setAttribute('src' , `${directory.img}`);
+        business.innerHTML = `${index.business}`;
+        membership.innerHTML = `Type if Membership: ${index.member}`;
+        founder.innerHTML = `Founder(s): ${index.founder}`;
+        address.innerHTML = `Address: ${index.address}`;
+        phone.innerHTML = `Phone Number: ${index.phone}`;
+        img.setAttribute('src' , `${index.img}`);
 
         card.append(business);
         card.append(membership);

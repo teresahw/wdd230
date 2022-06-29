@@ -2,7 +2,7 @@ const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-
 const cards = document.querySelector('.cards');
 
 async function prophets() {
-    let response = await fetch(requestURL)
+    let response = await fetch(requestURL);
     if (response.ok) {
         let data = await response.json();
         buildProphetCards(data);
@@ -14,13 +14,12 @@ async function prophets() {
 async function buildProphetCards(data) {
     //letnotUtah = data.prophets.filer(p => p.birthplace !== 'Utah');
     //nonUtah.forEach(prophet => {
-    console.log(data);
     data.prophets.forEach(prophet => {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let date = document.createElement('p');
         let place = document.createElement('p');
-        let portrait = document.createElement('img');
+        let img = document.createElement('img');
 
         h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
         date.innerHTML = `Date of Birth: ${prophet.birthdate}`;
@@ -30,7 +29,7 @@ async function buildProphetCards(data) {
         card.append(h2);
         card.append(date);
         card.append(place);
-        card.append(portrait);
+        card.append(img);
 
         cards.append(card);
     });
