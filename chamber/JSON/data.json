@@ -5,6 +5,7 @@
         "founder": "Mike Hall",
         "phone": "801-475-1973",
         "address": "465 Cherry Dr Ogden Ut 84405",
+        "membership": "NP",
         "website": "https://envirometrics.net/",
         "img": "images/envirometrics.jpg"
     },
@@ -13,6 +14,7 @@
         "founder": "Cynthia Wilde",
         "phone": "801-123-4567",
         "address": "475 W Ogden Ut 84405",
+        "membership": "Bronze",
         "website": "https://www.etsy.com/shop/SimplyWildeKnitting",
         "img": "images/simplywildeknitting.webp"
       },
@@ -21,6 +23,7 @@
         "founder": "Becky Parr",
         "phone": "801-123-4567",
         "address": "475 W Ogden Ut 84405",
+        "membership": "Bronze",
         "website": "https://www.beckysbubblystuff.com/",
         "img": "images/beckysbubblystuff.webp"
     },
@@ -29,6 +32,7 @@
         "founder": "Jill Barker",
         "phone": "801-721-7531",
         "address": "1285 20th St, Ogden, UT 84401",
+        "membership": "Silver",
         "website": "http://www.utahspinkdrink.com/",
         "img": "images/pinkdrink.png"
     },
@@ -37,6 +41,7 @@
         "founder": "Tom Jackson",
         "phone": "801-621-1107",
         "address": "2510 E Washington Blvd, Ogden, UT 84401",
+        "membership": "Gold",
         "imageurl": "https://www.facebook.com/Restaurant1107/",
         "img": "images/resturant1107.jpg"
     },
@@ -45,6 +50,7 @@
         "founder": "Asael Farr & Sons",
         "phone": "801-393-8629",
         "address": "274 21st St, Ogden, UT 84401",
+        "membership": "Gold",
         "website": "https://farrsicecream.com/https://farrsicecream.com/",
         "img": "images/farrs.jpg"
     },
@@ -53,6 +59,7 @@
         "founder": "Mr and Mrs Lee",
         "phone": "801-394-8788",
         "address": "465 12th St, Ogden, UT 84404",
+        "membership": "Silver",
         "website": "https://wingwahogden.com/",
         "img": "images/wingwah.jpg"
     },
@@ -61,6 +68,7 @@
         "founder": "Greg Schern and Sarah Hamilton",
         "phone": "801-626-8820",
         "address": "2314 Washington Blvd. Ogden, UT",
+        "membership": "Gold",
         "website": "https://www.ogdenmade.com/",
         "img": "images/ogdenmade.webp"
     },
@@ -69,6 +77,7 @@
         "founder": "Mr Zang",
         "phone": "801-622-6888",
         "address": "4510 Harrison Blvd, Ogden, UT 84403",
+        "membership": "Bronze",
         "website": "https://m.facebook.com/pages/category/Cantonese-Restaurant/Zhangs-Chopstix-217866868236778/",
         "img": "images/chopstix.jpg"
     },
