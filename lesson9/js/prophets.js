@@ -35,4 +35,4 @@ async function buildProphetCards(data) {
         cards.append(card);
     });
 }
-prophets();
+prophets(requestURL);
