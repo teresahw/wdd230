@@ -16,7 +16,7 @@
         "address": "475 W Ogden Ut 84405",
         "membership": "Bronze",
         "website": "https://www.etsy.com/shop/SimplyWildeKnitting",
-        "img": "images/simplywildeknitting.webp"
+        "img": "images/simplywildeknitting.jpg"
       },
     {
         "business": "Becky's Bubbly Stuff",
@@ -25,7 +25,7 @@
         "address": "475 W Ogden Ut 84405",
         "membership": "Bronze",
         "website": "https://www.beckysbubblystuff.com/",
-        "img": "images/beckysbubblystuff.webp"
+        "img": "images/beckysbubblystuff.jpg"
     },
     {
         "business": "Pink Drink",
@@ -34,7 +34,7 @@
         "address": "1285 20th St, Ogden, UT 84401",
         "membership": "Silver",
         "website": "http://www.utahspinkdrink.com/",
-        "img": "images/pinkdrink.png"
+        "img": "images/pinkdrink.jpg"
     },
     {
         "business": "Resturant 1107",
@@ -70,7 +70,7 @@
         "address": "2314 Washington Blvd. Ogden, UT",
         "membership": "Gold",
         "website": "https://www.ogdenmade.com/",
-        "img": "images/ogdenmade.webp"
+        "img": "images/ogdenmade.jpg"
     },
     {
         "business": "Chopstix",
