@@ -70,7 +70,7 @@
         "address": "2314 Washington Blvd. Ogden, UT",
         "membership": "Gold",
         "website": "https://www.ogdenmade.com/",
-        "img": "images/ogdenmade.jpg"
+        "img": "images/ogdenmade.JPG"
     },
     {
         "business": "Chopstix",
@@ -79,7 +79,7 @@
         "address": "4510 Harrison Blvd, Ogden, UT 84403",
         "membership": "Bronze",
         "website": "https://m.facebook.com/pages/category/Cantonese-Restaurant/Zhangs-Chopstix-217866868236778/",
-        "img": "images/chopstix.jpg"
+        "img": "images/chopstix.JPG"
     }
   ]
 }
