@@ -24,7 +24,7 @@ function buildCards(data) {
 
         h2.innerHTML = index.business;
         h3.innerHTML = `Type if Membership: ${index.membership}`;
-        h4.innerHTML = `Founder(s): ${index.founder}`;
+        h4.innerHTML = index.website;
         p.innerHTML = `Address: ${index.address}`;
         phone.innerHTML = `Phone Number: ${index.phone}`;
         img.setAttribute('src' , `${index.img}`);
