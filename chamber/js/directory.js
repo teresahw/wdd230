@@ -1,6 +1,7 @@
 const requestURL = 'https://teresahw.github.io/wdd230/chamber/JSON/data.json';
 const cards = document.querySelector('.cards');
 
+
 async function getDirectory() {
     let response = await fetch(requestURL)
     if (response.ok) {
@@ -41,3 +42,4 @@ function buildCards(data) {
     });
 }
 getDirectory();
+

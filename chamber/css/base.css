@@ -446,3 +446,21 @@ form fieldset {
     filter: blur(0em);
     transition: filter 0.5s;
 }
+
+/* Directory Page */
+
+.menu {
+	margin: 1rem auto;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.directory-h2 {
+    text-align: center;
+}
+
+.menu button {
+	padding: 0.5rem;
+}
+
+
