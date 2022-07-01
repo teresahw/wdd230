@@ -259,6 +259,15 @@ header, main, footer {
 
   /* Discover Page */
 
+  .discover-h2 {
+    border: 1px solid #333333;
+    background-color: white;
+    padding: 0.75rem;
+    margin: 0.5rem;
+    box-shadow: 3px 3px 9px rgb(54, 54, 54);
+    text-align: center;
+  }
+
   #ogden-sign-image {
     max-width: 100%;
     box-shadow: 3px 3px 9px rgb(54, 54, 54);
