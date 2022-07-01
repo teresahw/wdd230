@@ -154,10 +154,11 @@
         grid-column: 2/3;
     }
 
-}
 
-/* Join Page */
-form label.sbs {
+    /* Join Page */
+    form label.sbs {
     padding: 2rem 0;
+    }
+
 }
 

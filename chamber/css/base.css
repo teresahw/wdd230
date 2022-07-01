@@ -252,7 +252,7 @@ footer {
     border: 5px solid #2A2F33;
   }
 
-header, main, footer {
+main, footer {
     margin: 0 auto;
     padding: 0.75rem;
   }
