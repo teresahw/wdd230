@@ -1,0 +1,47 @@
+h1 {
+    font-family: 'The Nautigal', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'The Nautigal', cursive;
+    font-size: 40px;
+}
+
+main {
+	margin: 0 auto;
+	border: 1px solid #bbb;
+	padding: 0.5rem;
+	max-width: 700px;
+	background-color: #eee;
+}
+
+section {
+	margin: 0.75rem;
+	border: 1px solid #0228521a;
+	padding: 0.5rem;
+	background-color: #d4e2f1;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+}
+
+.cards section {
+	flex-direction: column;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.5rem;
+    color: #0228521a;
+}
+
