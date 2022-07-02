@@ -427,10 +427,14 @@ form fieldset {
   #bdescription {
     display: block;
     padding: .75rem 0;
+    width: 90%;
+    max-width: 15rem;
+    min-width: 10rem;
   }
 
 
-/* About Us Page */
+
+/* contact Us Page */
 
 .about-us-h2 {
     text-align: center;
@@ -447,6 +451,24 @@ form fieldset {
     border: 1px solid #333333;
     filter: blur(0em);
     transition: filter 0.5s;
+}
+
+.contact-info div {
+    text-align: center;
+    border: 1px solid #333333;
+    background-color: #d0d5da;
+    padding: 0.75rem;
+    margin: 0.5rem;
+    box-shadow: 3px 3px 9px rgb(54, 54, 54);
+}
+
+.contact-info {
+    text-align: center;
+    border: 1px solid #333333;
+    background-color: #d0d5da;
+    padding: 0.75rem;
+    margin: 0.5rem;
+    box-shadow: 3px 3px 9px rgb(54, 54, 54);
 }
 
 /* Directory Page */
