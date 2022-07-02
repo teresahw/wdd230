@@ -67,4 +67,7 @@
         margin-right: auto;
     }
 
+    .list section img {
+		display: block;
+    }
 }

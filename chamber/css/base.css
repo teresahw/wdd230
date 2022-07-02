@@ -463,4 +463,49 @@ form fieldset {
 	padding: 0.5rem;
 }
 
+.main-directory {
+    margin: 0 auto;
+	padding: 0.5rem;
+}
 
+article {
+	margin: 1rem;
+}
+
+section {
+    border: 1px solid #333333;
+	padding: 0.5rem;
+	background-color: #d0d5da;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+    grid-gap: 2px;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+}
+
+.cards section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+article section img {
+	height: 120px;
+	max-width: 100%; /* Images are jerks - Seattle*/
+}
