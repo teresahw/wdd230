@@ -425,8 +425,10 @@ form fieldset {
   }
 
   #bdescription {
-    display:block;
+    display: block;
+    padding: .75rem 0;
   }
+
 
 /* About Us Page */
 
@@ -507,5 +509,5 @@ section {
 
 article section img {
 	height: 120px;
-	max-width: 100%; /* Images are jerks - Seattle*/
+	max-width: 100%;
 }
