@@ -1,0 +1,105 @@
+h1, h2, h3, h4 {
+    font-family: 'Satisfy', cursive;
+}
+
+p {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: fixed;
+}
+
+.temple-inn-logo {
+    width: 120px;
+    height: auto;
+}
+
+nav ul#primaryNav{
+    padding-top: 50px;
+  }
+
+nav {
+    text-align: right; 
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: none;
+}
+  
+nav ul.open {
+    display: block;
+}
+  
+nav ul li a {
+    font-family: 'ABeeZee', sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: .70rem;
+    font-size: 1.0rem;
+    color: black;
+}
+  
+nav button {
+      margin: .2re 2vw;
+      background: transparent;
+      border: none;
+      font-size: 4rem;
+      color: black;
+}
+
+nav ul li a:hover {
+        background-color: #3e592a;
+        color: white;
+        border-radius: 50px;
+}
+
+
+
+#primaryNav li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: #3e592a;
+    color: white;
+    margin-top: 15px;
+    margin-left: -15px
+}
+
+#primaryNav li:hover .sub-menu ul {
+    display:block;
+    margin: 10px;
+}
+
+#primaryNav li:hover .sub-menu ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+#primaryNav li:hover .sub-menu ul li:last-child {
+    border-bottom: none;
+}
+
+#primaryNav li:hover .sub-menu ul li:hover {
+    color: #3e592a;
+}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
