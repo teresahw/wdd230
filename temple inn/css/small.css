@@ -28,7 +28,7 @@ h1 {
     color: white;
     text-shadow: 5px 5px 15px #3e592a, -5px -5px 15px #3e592a;
     text-align: center;
-    grid-column: 3/9;
+    grid-column: 1/11;
     grid-row: 1/2;
 }
 
