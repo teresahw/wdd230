@@ -10,57 +10,40 @@ img {
     width: 100%;
 }
 
-header {
-    padding-left: 1.5em;
+/* Header */
+
+.heading-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
-.temple-inn-logo {
-    width: 160px;
-    display: block;
+.header-img {
+    grid-column: 1/11;
+    grid-row: 1/4;
 }
 
-.menu li {
-    list-style: none;
-}
-
-.menu li a {
-    display: block;
-    text-decoration: none;
-    color: black;
-    padding: 1em 1.5em;
-    font-size: 1.5rem;
-}
-
-.has-dropdown {
-    position: relative;
-}
-
-.submenu {
-    display: absolute;
-    left: 0;
-    white-space: nowrap;
-    padding: 1.5em 0;
-    transform: scaleY(0);
-    transform-origin: top center;
-    opacity: 0;
-}
-
-.submenu > li > a {
-    padding : 0.5em 1.5em;
-}
-
-.menu > li:hover>a, .submenu > li:hover > a {
-    background-color: #3e592a;
+h1 {
+    font-size: 40px;
     color: white;
-    border-radius: 40px;
+    text-shadow: 5px 5px 15px #3e592a, -5px -5px 15px #3e592a;
+    text-align: center;
+    grid-column: 3/9;
+    grid-row: 1/2;
 }
 
-.menu > li:hover > a + .submenu {
-    opacity: 1;
-    transform: scaleY(1);
+.book-now-button {
+    font-size: 25px;
+    border-radius: 25px;
+    padding:10px;
+    background-color: transparent;
+    color: white;
+    text-shadow: 5px 5px 15px #3e592a, -5px -5px 15px #3e592a;
+    grid-column: 4/8;
+    grid-row: 2/3;
 }
 
-/*.heading {
+.heading {
     display: grid;
     grid-template-columns: 1fr 1fr;
     display: fixed;
@@ -115,8 +98,6 @@ nav ul li a:hover {
         border-radius: 50px;
 }
 
-
-
 .services:hover .sub-menu {
     display: block;
 }
@@ -132,7 +113,6 @@ nav ul li a:hover {
     border-bottom: 1px dotted white;
     background: transparent;
     border-radius: 0;
-    text-align: left;
 }
 
 #primaryNav li:hover .sub-menu ul li:last-child {
@@ -148,4 +128,11 @@ nav ul li a:hover {
 
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
-*/
+
+
+
+/* Footer */
+.facebook, .instagram {
+    width: 69px;
+    height: auto;
+}
