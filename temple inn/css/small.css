@@ -43,6 +43,10 @@ h1 {
     grid-row: 2/3;
 }
 
+.book-now-button:hover {
+    background-color: transparent;
+}
+
 .heading {
     display: grid;
     grid-template-columns: 1fr 1fr;
