@@ -1,0 +1,55 @@
+:root{
+    box-sizing: border-box;
+
+    --primary: #ff0000;
+    --hover-color: #fdd052;
+    --dark: black;
+    --light: white;
+
+    --header-bg: var(--primary);
+}
+
+*, ::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    background: var(--header-bg);
+    padding-left: 1.5em;
+}
+
+.branding-logo {
+    color: white;
+    font-size: calc(0.8rem + 1vw);
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1em 1.5em;
+    font-size: 1.5rem;
+}

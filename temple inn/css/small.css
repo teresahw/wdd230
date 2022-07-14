@@ -10,7 +10,57 @@ img {
     width: 100%;
 }
 
-.heading {
+header {
+    padding-left: 1.5em;
+}
+
+.temple-inn-logo {
+    width: 160px;
+    display: block;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1em 1.5em;
+    font-size: 1.5rem;
+}
+
+.has-dropdown {
+    position: relative;
+}
+
+.submenu {
+    display: absolute;
+    left: 0;
+    white-space: nowrap;
+    padding: 1.5em 0;
+    transform: scaleY(0);
+    transform-origin: top center;
+    opacity: 0;
+}
+
+.submenu > li > a {
+    padding : 0.5em 1.5em;
+}
+
+.menu > li:hover>a, .submenu > li:hover > a {
+    background-color: #3e592a;
+    color: white;
+    border-radius: 40px;
+}
+
+.menu > li:hover > a + .submenu {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+/*.heading {
     display: grid;
     grid-template-columns: 1fr 1fr;
     display: fixed;
@@ -67,13 +117,8 @@ nav ul li a:hover {
 
 
 
-#primaryNav li:hover .sub-menu {
+.services:hover .sub-menu {
     display: block;
-    position: absolute;
-    background-color: #3e592a;
-    color: white;
-    margin-top: 15px;
-    margin-left: -15px
 }
 
 #primaryNav li:hover .sub-menu ul {
@@ -103,3 +148,4 @@ nav ul li a:hover {
 
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
+*/

@@ -1,23 +1,35 @@
 @media only screen and (min-width: 60em) {
 
-    .temple-inn-logo {
-       width: 150px;
-    }
+  .temple-inn-logo {
+    width: 150px;
+ }
 
-    nav button {
-        display: none;
-    }
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-    nav ul#primaryNav{
-        display: flex;
-        margin-left: 2vw;
-        justify-content: center;
-      }
+.menu {
+  font-family: 'ABeeZee', sans-serif;
+  display: flex;
+  flex-direction: row;
+}
 
-    nav ul li a {
-		    font-size: 1.5rem;
-        padding: .5rem 1rem;
-	}
+/* nav button {
+     display: none;
+ }
+
+ nav ul#primaryNav{
+     display: flex;
+     margin-left: 2vw;
+     justify-content: center;
+   }
+
+ nav ul li a {
+     font-size: 1.5rem;
+     padding: .5rem 1rem;
+}*/
 
 
 
