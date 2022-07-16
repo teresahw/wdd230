@@ -1,13 +1,21 @@
 h1, h2, h3, h4 {
     font-family: 'Satisfy', cursive;
+    text-align: center;
 }
 
 p {
     font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+    padding-top: 20px;
 }
 
 img {
     width: 100%;
+}
+
+h2 {
+    font-size: 35px;
+    color: #3e592a;
 }
 
 /* Header */
@@ -33,29 +41,40 @@ h1 {
 }
 
 .book-now-button {
-    font-size: 25px;
     border-radius: 25px;
     padding:10px;
     background-color: transparent;
-    color: white;
     text-shadow: 5px 5px 15px #3e592a, -5px -5px 15px #3e592a;
     grid-column: 4/8;
     grid-row: 2/3;
+    max-height: 50px;
+    border-color: white;
+}
+
+.book-now-button a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
 }
 
 .book-now-button:hover {
     background-color: black;
+    filter: drop-shadow(5px 5px 15px black);
+    transition: ease-in-out 0.2s;
+    border-color: black;
+    text-shadow: 2px 2px 30px white, -2px -2px 30px white;
 }
 
 .heading {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    display: fixed;
+    background-color: white;
 }
 
 .temple-inn-logo {
     width: 120px;
     height: auto;
+    padding-left: 20px;
 }
 
 nav ul#primaryNav{
@@ -100,6 +119,7 @@ nav ul li a:hover {
         background-color: #3e592a;
         color: white;
         border-radius: 50px;
+        transition: ease-in-out 0.2s;
 }
 
 .services:hover .sub-menu {
@@ -133,10 +153,42 @@ nav ul li a:hover {
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
+/* Main */
 
+.tpl-ot-mo-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.slc-tpl-img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    filter: drop-shadow(5px 5px 15px black);
+    border-radius: 20px;
+}
+
+.tpl-ot-mo-grid h3{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    font-size: 26px;
+    text-shadow: 5px 5px 15px white, -5px -5px 15px white;
+}
 
 /* Footer */
 .facebook, .instagram {
     width: 69px;
     height: auto;
+    display: block;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#lastModified {
+    text-align: center;
 }

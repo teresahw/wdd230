@@ -20,6 +20,14 @@
      padding: .5rem 1rem;
   }
 
+  h1 {
+    font-size: 80px;
+  }
 
+  .book-now-button {
+    grid-column: 5/7;
+    font-size: 40px;
+    max-height: 90px;
+}
 
 }
