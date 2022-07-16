@@ -176,6 +176,16 @@ nav ul li a:hover {
     text-shadow: 5px 5px 15px white, -5px -5px 15px white;
 }
 
+.weather-img {
+    filter: drop-shadow(5px 5px 15px black);
+    border-radius: 20px;
+}
+
+.contact-img {
+    filter: drop-shadow(5px 5px 15px black);
+    border-radius: 20px;
+}
+
 /* Footer */
 .facebook, .instagram {
     width: 69px;
