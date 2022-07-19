@@ -34,6 +34,10 @@ h2 {
    font-size: 50px;
 }
 
+header {
+   background-color: white;
+}
+
 body {
    background-color: rgb(216, 221, 216);
 }
