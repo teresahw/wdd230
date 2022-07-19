@@ -1,4 +1,4 @@
-const requestURL = 'https://teresahw.github.io/wdd230/chamber/JSON/data.json';
+const requestURL = 'https://teresahw.github.io/wdd230/temple-inn/JSON/data.json';
 const cards = document.querySelector('.cards');
 
 async function prophets() {
