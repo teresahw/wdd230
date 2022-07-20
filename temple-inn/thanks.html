@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Temple In & Suites - Reservation</title>
-    <meta name="description" content="Make a reservation for Temple Inn & Suites">
+    <title>Temple In & Suites - Home</title>
+    <meta name="description" content="Learn about, book a stay, plan events, find a location for Temple Inn & Suites">
 
     <link rel="icon" href="images/temple.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,39 +54,7 @@
         <hr>
     </header>
     <main>
-        <h2 class="reservation">Make A Reservation</h2>
-        <form name="myform" method="get" action="thanks.html" onsubmit="return validate()">
-            <fieldset>
-                <legend>Guest Information</legend>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
-                <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Home State or Country <input type="text" name="home" required></label>
-                <label class="top">Phone* <input type="tel" name="phone" required></label>
-                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            </fieldset>
-            <fieldset>
-                <legend>Reservation Details</legend>
-                <label class="top">Check In Date (Input MMDDYYYY)<input type="text" name="indate" id="indate" minlength="8" maxlength="8"required></label>
-                <p id="error"></p><br/>
-                <label class="top">Check Out Date (Input MMDDYYYY)<input type="text" name="outdate" id="outdate" minlength="8" maxlength="8"required></label>
-                <p id="error2"></p><br/>
-                <div>Location</div>
-                <label class="sbs"><input type="radio" name="location" value="slc"> Salt Lake City Temple</label>
-                <label class="sbs"><input type="radio" name="location" value="laie"> Laie Hawaii Temple</label>
-                <label class="sbs"><input type="radio" name="location" value="ogden"> Ogden Utah Temple</label>
-                <label class="sbs"><input type="radio" name="location" value="provo"> Provo Utah Temple</label>
-                <div>Room Type</div>
-                <label class="sbs"><input type="radio" name="room" value="full"> Full</label>
-                <label class="sbs"><input type="radio" name="room" value="queen"> Queen</label>
-                <label class="sbs"><input type="radio" name="room" value="king"> King</label>
-                <label class="sbs"><input type="radio" name="room" value="dfull"> Double Full</label>
-                <label class="sbs"><input type="radio" name="room" value="dqueen"> Double Queen</label>
-                <label class="top" id="bdescription">Special Accommodations/Comments:<textarea name="bdescription" rows="10"></textarea></label>
-                <input type="hidden" name="day-time" id="dayTime">
-            </fieldset>
-
-                <input type="submit" value = "Claim Your Room" class="submitBtn">
-        </form>
+        <h2>Thank you for your reservation!<br>Your confirmation email will be sent shortly.</h2>
     </main> 
     <hr>
     <footer class="footer-grid">
@@ -105,6 +73,5 @@
     <script src="js/modified-date.js"></script>
     <script src="js/header.js"></script>
     <script src="js/nav.js"></script>
-    <script src="js/reservation.js"></script> 
 </body>
 </html>

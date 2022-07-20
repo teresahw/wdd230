@@ -232,6 +232,10 @@ section {
 
  /* Reservation */
 
+ .reservation {
+    padding-top: 20px;
+ }
+
  form fieldset {
     margin: 2rem 0;
     border: 1px solid black;
