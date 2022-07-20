@@ -128,5 +128,13 @@ main {
 
 /* Temple Page */
 
+.temple {
+   font-size: 70px;
+}
 
+/* Reservation Page */
+
+form legend {
+   font-size: 20px;
+ }
 }
