@@ -9,6 +9,10 @@ p {
     padding-top: 20px;
 }
 
+ul li {
+    font-family: 'ABeeZee', sans-serif;
+}
+
 img {
     width: 100%;
 }
@@ -25,6 +29,7 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+
 
 .header-img {
     grid-column: 1/11;
@@ -155,7 +160,17 @@ nav ul li a:hover {
 
 /* Main */
 
-
+.main-paragraph {
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 15px white);
+    background-color: rgb(216, 221, 216);
+    padding-right: 10px;
+    padding-left: 10px;
+}
 .tpl-ot-mo-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -206,9 +221,6 @@ nav ul li a:hover {
 
 /* Temple Page */
 
-.temple {
-    padding-top: 20px;
-}
 
 .cards {
 	display: grid;
@@ -232,9 +244,6 @@ section {
 
  /* Reservation */
 
- .reservation {
-    padding-top: 20px;
- }
 
  form fieldset {
     margin: 2rem 0;
@@ -306,3 +315,18 @@ section {
     background-color: rgb(216, 221, 216);
     min-width: 20rem;
   }
+
+.services-img, .amenities-img, .reception-img, .temple-missionary-img {
+    filter: drop-shadow(5px 5px 15px black);
+    border-radius: 20px;
+}
+
+.reception-paragraph {
+    text-decoration: none;
+    color: black;
+ }
+ 
+ .link {
+    text-decoration: none;
+    color: black;
+ }
