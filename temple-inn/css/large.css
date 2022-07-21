@@ -196,7 +196,7 @@ form legend {
 
 /* Reception Page */
 
-main h3 {
+.main-reception h3 {
    border-bottom: 5px solid;
 }
 
@@ -266,6 +266,8 @@ main h3 {
    padding-top: 5rem;
 }
 
-
+.main-tm h3 {
+   border-bottom: 5px solid;
+}
 
 }
