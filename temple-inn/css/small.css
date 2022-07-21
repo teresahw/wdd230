@@ -337,3 +337,10 @@ section {
     filter: drop-shadow(5px 5px 15px black);
     border-radius: 20px;
  }
+
+ /* Missionary Page */
+
+ .full-img, .double-full-img, .queen-img, .double-queen-img, .king-img {
+    filter: drop-shadow(5px 5px 15px black);
+    border-radius: 20px;
+ }
