@@ -192,14 +192,48 @@ nav ul li a:hover {
     text-shadow: 5px 5px 15px white, -5px -5px 15px white;
 }
 
-.weather-img {
+.contact-img {
     filter: drop-shadow(5px 5px 15px black);
     border-radius: 20px;
 }
 
-.contact-img {
+.weather {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.weather-img {
     filter: drop-shadow(5px 5px 15px black);
     border-radius: 20px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.weather h3 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+}
+
+.temp {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    padding-top: 5rem;
+}
+
+.hum {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    padding-top: 7rem;
+}
+
+.weather figure {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    padding-top: 9rem; 
 }
 
 /* Footer */
