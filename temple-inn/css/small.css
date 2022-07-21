@@ -330,3 +330,10 @@ section {
     text-decoration: none;
     color: black;
  }
+
+ /* Reception Page */
+
+ .decor-img, .food-img, .photography-img, .photobooth-img {
+    filter: drop-shadow(5px 5px 15px black);
+    border-radius: 20px;
+ }
