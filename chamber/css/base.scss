@@ -1,0 +1,486 @@
+
+//VARIABLES
+$base: white;
+$accent1: #ece9df;
+$accent2: #2A2F33;
+$accent3: #d0d5da;
+$accent4: #333333;
+$basefont: 'Roboto Condensed', sans-serif;
+$accentfont1: 'Open Sans', sans-serif;
+
+//EXTEND
+
+%shadow {
+    box-shadow: 3px 3px 9px rgb(54, 54, 54);
+}
+
+%socialstyle {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+%gradient {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(208,213,218,1) 45%, rgba(171,213,222,1) 100%);
+}
+
+//MIXIN
+
+@mixin pstyle {
+    border: 1px solid $accent4;
+    background-color: $accent3;
+    @extend %gradient;
+    @include padmar;
+    @extend %shadow;
+    text-align: center;
+}
+
+@mixin imgstyle {
+    max-width: 100%;
+    @extend %shadow;
+    border: 1px solid $accent4;
+}
+
+@mixin padmar {
+    padding: 0.75rem;
+    margin: 0.5rem;
+}
+
+.heading:before {
+    transform: translate(-110%, 95%);
+  }
+  
+  h1 {
+    animation: pop-in .5 1.4s cubic-bezier(0,.8,.4,1.25) forwards;
+    display: inline-block;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+    font-family: $basefont;
+    color: $accent2;
+    font-size: 1.5rem;
+    margin: 0.15rem;
+  }
+  
+  @keyframes pop-in {
+    0% {
+      opacity: 0;
+      transform: scale(.5);
+    }
+    40% {
+      opacity: 1;
+      transform: translate(0, 95%);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+h2 { 
+    font-family: $basefont;
+    color: $accent2;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+h3 { 
+    font-family: $basefont;
+    color: $accent2;
+    padding: 1em;
+}
+
+h4 { 
+    font-family: $basefont;
+}
+
+p {
+    font-family: $accentfont1;
+}
+
+body {
+    background-color: $base;
+}
+
+.heading {
+    background-color: $base;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid $accent2;
+}
+
+.bee-icon {
+    width: 60px;
+    height: auto;
+}
+
+.facebook {
+    @extend %socialstyle;
+}
+
+.youtube {
+    @extend %socialstyle;
+}
+
+.instagram {
+    @extend %socialstyle;
+}
+
+nav {
+  background-color: $accent2;
+  text-align: center;
+  button {
+    margin: .2re 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: $accent1;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: none;
+    .open {
+        display: block;
+      }
+    li a {
+        font-family: $basefont;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: .70rem;
+        font-size: 1.0rem;
+        color: $accent1;
+      }
+  }
+}
+
+nav a:hover {
+    background-color: $accent1;
+    color: $accent2;
+  }
+
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+
+#banner {
+    text-align: center;
+    border: 5px solid $accent2;
+    background-color: $base;
+    display: none;
+}
+
+main {
+    background-color: $base;
+    border: 5px solid $accent2;
+}
+
+.description {
+    @include pstyle;
+}
+
+.hero-img {
+    @include imgstyle;
+    align-items: center;
+}
+
+.description-img {
+    @include imgstyle;
+    align-items: center;
+}
+
+.discover {
+    @include pstyle;
+}
+
+.discover-img {
+    @include imgstyle;
+}
+
+.events {
+    @include pstyle;
+}
+
+.events-img {
+    @include imgstyle;
+}
+
+.support-donate {
+    @include pstyle;
+}
+
+.support-donate-img {
+    @include imgstyle;
+}
+
+.spotlight {
+    @include pstyle;
+}
+
+.spotlight-img {
+    @include imgstyle;
+}
+
+.weather-section {
+    @include pstyle;
+}
+
+.weather-header {
+    @include pstyle;
+}
+
+.news {
+    @include pstyle;
+}
+
+.news-section {
+    @include pstyle;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $base;
+    border: 5px solid $accent2;
+  }
+
+main, footer {
+    margin: 0 auto;
+    padding: 0.75rem;
+  }
+
+  // Discover Page
+
+  .discover-h2 {
+    border: 1px solid $accent4;
+    background-color: $base;
+    @extend %gradient;
+    @include padmar;
+    @extend %shadow;
+    text-align: center;
+  }
+
+  #ogden-sign-image {
+    @include imgstyle;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+#ogden-temple-image {
+    @include imgstyle;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+#ogden-horse-image {
+    @include imgstyle;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+#ogden-building-image {
+    @include imgstyle;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+#ogden-waterfall-image {
+    @include imgstyle;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.ogden-sign-paragraph {
+    @include pstyle;
+    font-size: 20px;
+}
+
+.ogden-temple-paragraph {
+    @include pstyle;
+    font-size: 20px;
+}
+
+.ogden-horse-paragraph {
+    @include pstyle;
+    font-size: 20px;
+}
+
+.ogden-building-paragraph {
+    @include pstyle;
+    font-size: 20px;
+}
+
+.ogden-waterfall-paragraph {
+    @include pstyle;
+    font-size: 20px;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+
+// Join page form 
+
+  
+form {
+    fieldset {
+        margin: 2rem 0;
+        border: 1px solid $accent2;
+        border-radius: 10px;
+        padding: .5rem 2%;
+        background-color: $accent3;
+    }
+  legend {
+    color: $accent2;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+  }
+  label.top, div {
+    display: block;
+    padding-top: 1rem;
+    color: $accent2;
+    font-size: .8rem;
+  }
+  label.top input, label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px $accent3;
+    border-radius: 4px;
+    padding:.75rem;
+    color: $accent2;
+    width: 90%;
+    max-width: 25rem;
+    background-color: $base;
+  }
+  label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: $accent2;
+  }
+  input.submitBtn {
+    border: $accent3;
+    background-color: $accent2;
+    color: $accent3;
+    border-radius: 2rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 15rem;
+    font-size: 1rem;
+  }
+  label.top input:required {
+    border-right: red solid 3px;
+  }
+  label.top input:required:valid {
+    border-right: green solid 3px;
+  }
+}
+
+  #bdescription {
+    display: block;
+    padding: .75rem 0;
+    width: 90%;
+    max-width: 15rem;
+    min-width: 10rem;
+  }
+
+
+
+// contact Us Page
+
+.about-us-h2 {
+    text-align: center;
+    border: 1px solid $accent4;
+    background-color: $accent3;
+    @include padmar;
+    @extend %shadow;
+}
+
+.about-us-img {
+    @include imgstyle;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.contact-info div {
+    text-align: center;
+    border: 1px solid $accent4;
+    background-color: $accent3;
+    @include padmar;
+    @extend %shadow;
+}
+
+.contact-info {
+    text-align: center;
+    border: 1px solid $accent4;
+    background-color: $accent3;
+    @include padmar;
+    @extend %shadow;
+}
+
+// Directory Page
+
+.menu {
+	margin: 1rem auto;
+	padding: 0.5rem;
+	text-align: center;
+    button {
+        padding: 0.5rem;
+    }
+}
+
+.directory-h2 {
+    text-align: center;
+}
+
+
+.main-directory {
+    margin: 0 auto;
+	padding: 0.5rem;
+}
+
+article {
+	margin: 1rem;
+    section img {
+        height: 120px;
+        max-width: 100%;
+    }
+}
+
+section {
+    border: 1px solid $accent4;
+	padding: 0.5rem;
+	background-color: $accent3;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+    grid-gap: 2px;
+    section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+    section {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+	    justify-content: left;
+    }
+}
